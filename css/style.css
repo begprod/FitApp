@@ -44,6 +44,11 @@ p {
 	margin: 0;
 	font-size: 48px;
 	line-height: 60px;
+	text-align: center;
+}
+
+.section__head--left {
+	text-align: left;
 }
 
 .section__head span {
@@ -322,3 +327,51 @@ p {
 	flex-basis: 50%;
 }
 /* ---FEATURES */
+
+/* ---APP SCREENS */
+.app-screens {
+	position:  relative;
+	padding-bottom: 0;
+}
+
+.app-screens__descr {
+	width: 65%;
+	margin: 30px auto 0 auto;
+	text-align: center;
+}
+
+.app-screens__img {
+	position: relative;
+	min-height: 600px;
+	margin-top: 90px;
+	text-align: center;
+	overflow: hidden;
+	/* border: 3px solid yellow; */
+}
+
+.app-screens__img > * {
+	position:  absolute;
+}
+
+.app-screens__img img:first-child {
+	left: 180px;
+	bottom: -80px;
+	z-index: 3;
+}
+
+.app-screens__img img:nth-child(2) {
+	left: 0;
+	right: 0;
+	bottom: -110px;
+	margin: 0 auto;
+	z-index: 4;
+}
+
+.app-screens__img img:last-child {
+	right: 180px;
+	bottom: -80px;
+	z-index: 3;
+}
+
+.parallax-units--app-screens {}
+/* ---APP SCREENS */

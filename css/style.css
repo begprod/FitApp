@@ -51,6 +51,10 @@ p {
 	text-align: left;
 }
 
+.section__head--white {
+	color: white;
+}
+
 .section__head span {
 	color: #2ecc71;
 }
@@ -60,6 +64,16 @@ p {
 	text-decoration: none;
 	cursor: pointer;
 }
+
+.btn--getapp {
+	padding: 8px 35px;
+	border-radius: 20px;
+	font-weight: 700;
+	color: #2ecc71;
+	background-color: white;
+}
+
+/* TODO .btn--getapp:hover */
 
 .btn--appstore {
 	width: 135px;
@@ -98,8 +112,6 @@ p {
 	margin-bottom: 170px;
 }
 
-.main-screen__info {}
-
 .header {
 	display: flex;
 	flex-direction: row;
@@ -137,15 +149,9 @@ p {
 	text-decoration: none;
 }
 
-.header__nav-link--getapp {
-	padding: 8px 35px;
-	border-radius: 20px;
-	font-weight: 700;
+.header__nav-item .btn--getapp {
 	color: #2ecc71;
-	background-color: white;
 }
-
-/* TODO .header__nav-link--getapp:hover */
 
 .main-info {
 	display: flex;
@@ -481,3 +487,33 @@ p {
 	background-color: #B4B4B4;
 }
 /* ---MANAGE TIME */
+
+/* ---FOOOTER */
+.footer {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	min-height: 440px;
+	color: white;
+	background-color: #2ecc71;
+	overflow: hidden;
+}
+
+.footer__descr {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.footer__btn {
+	margin-top: 45px;
+	text-align: center;
+}
+
+.footer__btn .btn--getapp {
+	padding-left: 70px;
+	padding-right: 70px;
+}
+/* ---FOOOTER */
